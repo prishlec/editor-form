@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Editor from './Editor';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Editor action="http://localhost/1/2"></Editor>
         </header>
       </div>
     );
